@@ -27,3 +27,8 @@ For a fun way to really get to know the inner workings of qat, I recommend this 
 ### [Solver tools](https://github.com/sloop-puzzles/solvertools)
 This technically has more things than just pattern matching but it mostly is. It has a bunch of tools for anagramming, pattern matching and some other puzzle specific stuff (`brute_force_diagonalize`, `index_all_the_things`). I primarily use `search` which is fairly similar to nutrimatic. Since everything local with a indexed wordlist on your machine, its a lot faster so especially with longer final answers and/or a lot of missing data (Metas with like 20 character answers), this tool works decently well when nutrimatic might be chuggin along. I usually keep this loaded in python repl incase it comes in handy. 
 
+
+### [util.in](https://util.in/)
+There are two tools that I often use from util.in: the heavy duty anagram solver and grid parser. The heavy duty anagram solver is really great for extremely large anagramming when you know the word break down (also supports without). Simiart to solver tools, Usually I use this when nutrimatic starts timing out. 
+
+The much more exciting and cooler tool of util.in is the grid parser. Can parse a pdf or image of a crossword puzzle and then you can past that into a google sheet ready to go. Clues are typed next to the answers, they're is fancy sheet magic so you can see checked letters next to clue and they auto fill in the grid. 
